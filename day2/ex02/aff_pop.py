@@ -21,6 +21,7 @@ def toNum(arr: np.array) -> np.array:
 
 
 def format_nombre(x, pos):
+    """function that formats numbers in plots"""
     if x >= 1_000_000_000:
         return f"{x/1_000_000_000:.1f}B"
     elif x >= 1_000_000:
