@@ -1,6 +1,6 @@
 class calculator:
     """This class contain 3 statics methods:
-    
+
     -dotproduct
 
     -add_vec
